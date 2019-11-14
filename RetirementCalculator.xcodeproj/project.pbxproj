@@ -10,7 +10,6 @@
 		5D53DDAD47AD0CA4393242D8 /* Pods_RetirementCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F293EED5D99FBB27531137A /* Pods_RetirementCalculatorTests.framework */; };
 		7C9564E24318747A984CEFAA /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C9CA10D003858CDE5428A5 /* Pods_RetirementCalculator_RetirementCalculatorUITests.framework */; };
 		B7608B42237D613900FA7F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7608B41237D613900FA7F74 /* AppDelegate.swift */; };
-		B7608B44237D613900FA7F74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7608B43237D613900FA7F74 /* SceneDelegate.swift */; };
 		B7608B46237D613900FA7F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7608B45237D613900FA7F74 /* ViewController.swift */; };
 		B7608B49237D613900FA7F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7608B47237D613900FA7F74 /* Main.storyboard */; };
 		B7608B4B237D613D00FA7F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7608B4A237D613D00FA7F74 /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 		7F293EED5D99FBB27531137A /* Pods_RetirementCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7608B3E237D613900FA7F74 /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7608B41237D613900FA7F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7608B43237D613900FA7F74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7608B45237D613900FA7F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7608B48237D613900FA7F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7608B4A237D613D00FA7F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				B7608B41237D613900FA7F74 /* AppDelegate.swift */,
-				B7608B43237D613900FA7F74 /* SceneDelegate.swift */,
 				B7608B45237D613900FA7F74 /* ViewController.swift */,
 				B7608B47237D613900FA7F74 /* Main.storyboard */,
 				B7608B4A237D613D00FA7F74 /* Assets.xcassets */,
@@ -165,7 +162,6 @@
 				DD60E814753D73C77C8E9771 /* Pods-RetirementCalculatorTests.debug.xcconfig */,
 				79A4D22231D86029D1751CD4 /* Pods-RetirementCalculatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -374,7 +370,6 @@
 			files = (
 				B7608B46237D613900FA7F74 /* ViewController.swift in Sources */,
 				B7608B42237D613900FA7F74 /* AppDelegate.swift in Sources */,
-				B7608B44237D613900FA7F74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -533,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -550,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,6 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
