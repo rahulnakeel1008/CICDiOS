@@ -543,6 +543,7 @@
 			baseConfigurationReference = FF698D0F1C5D97D66307B7DF /* Pods-RetirementCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H35J92J8FB;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
@@ -551,8 +552,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.servify.testframework;
+				PRODUCT_BUNDLE_IDENTIFIER = servify.consumer.10or;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -563,6 +565,7 @@
 			baseConfigurationReference = 68D9DE5724B0DCBF03DAE457 /* Pods-RetirementCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H35J92J8FB;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
@@ -571,8 +574,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.servify.testframework;
+				PRODUCT_BUNDLE_IDENTIFIER = servify.consumer.10or;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
