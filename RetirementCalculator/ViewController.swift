@@ -39,11 +39,11 @@ class ViewController: UIViewController {
     @IBAction func calculateButton_TouchUpInside(_ sender: Any) {
 //         MSCrashes.generateTestCrash()
         
-        let current_age : Int? = Int(ageTextField.text!)
-           let planned_retirement_age : Int? = Int(retirementAgeTextField.text!)
+//         let current_age : Int? = Int(ageTextField.text!)
+//            let planned_retirement_age : Int? = Int(retirementAgeTextField.text!)
            
-           let properties = ["current_age": String(current_age!),
-                             "planned_retirement_age": String(planned_retirement_age!)]
+//            let properties = ["current_age": String(current_age!),
+//                              "planned_retirement_age": String(planned_retirement_age!)]
            
            MSAnalytics.trackEvent("calculate_retirement_amount", withProperties: properties)
      }
